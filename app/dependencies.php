@@ -28,21 +28,43 @@ return function (ContainerBuilder $containerBuilder) {
         },
     ]);
 
+    // $containerBuilder->addDefinitions([
+    //     'db' => function (ContainerInterface $c) {
+    //         $settings = $c->get(SettingsInterface::class);
+
+    //         $dbSettings =  $settings->get('db');
+
+    //         $driver =  $dbSettings ['driver'];
+    //         $host =  $dbSettings ['host'];
+    //         $dbname =  $dbSettings ['database'];
+    //         $username =  $dbSettings ['username'];
+    //         $password =  $dbSettings ['password'];
+    //         $dsn = "$driver:host=$host;dbname=$dbname;";
+
+    //         $con = mysqli_connect($host, $username, $password, $dbname);
+    //         return $con;
+    //     }
+    // ]);
+
     $containerBuilder->addDefinitions([
         'db' => function (ContainerInterface $c) {
-            $settings = $c->get(SettingsInterface::class);
+        $settings = $c->get(SettingsInterface::class);
 
-            $dbSettings =  $settings->get('db');
+        $dbSettings = $settings->get('db');
 
-            $driver =  $dbSettings ['driver'];
-            $host =  $dbSettings ['host'];
-            $dbname =  $dbSettings ['database'];
-            $username =  $dbSettings ['username'];
-            $password =  $dbSettings ['password'];
-            $dsn = "$driver:host=$host;dbname=$dbname;";
+        $drive = $dbSettings['driver'];
+        $host = $dbSettings['host'];
+        $port = $dbSettings['port'];
+        $dbname = $dbSettings['database'];
+        $username = $dbSettings['username'];
+        $password = $dbSettings['password'];
 
-            $con = mysqli_connect($host, $username, $password, $dbname);
-            return $con;
-        }
+        $pdo = new PDO("$drive:host=$host;port=$port;dbname=$dbname", $username, $password);
+
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+        return $pdo;
+    }
+        ,
     ]);
 };

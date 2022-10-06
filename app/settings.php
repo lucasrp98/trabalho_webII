@@ -21,11 +21,12 @@ return function (ContainerBuilder $containerBuilder) {
                     'level' => Logger::DEBUG,
                 ],
                 'db' => [
-                    'driver' => 'mysql',
-                    'host' => 'localhost',
+                    'driver' => 'pgsql',
+                    'host' => '127.0.0.1',
+                    'port'     => '5432',
                     'database' => 'cidadao',
-                    'username' => 'root',
-                    'password' => '', 
+                    'username' => 'postgres',
+                    'password' => '12345',
                 ],
             ]);
         }
