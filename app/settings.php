@@ -6,6 +6,7 @@ use App\Application\Settings\SettingsInterface;
 use DI\ContainerBuilder;
 use Monolog\Logger;
 
+
 return function (ContainerBuilder $containerBuilder) {
 
     // Global Settings Object
@@ -22,11 +23,11 @@ return function (ContainerBuilder $containerBuilder) {
                 ],
                 'db' => [
                     'driver' => 'pgsql',
-                    'host' => '127.0.0.1',
+                    'host' => 'localhost',
                     'port'     => '5432',
                     'database' => 'cidadao',
                     'username' => 'postgres',
-                    'password' => '12345',
+                    'password' => '1198',
                 ],
             ]);
         }
