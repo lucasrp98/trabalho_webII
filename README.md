@@ -27,3 +27,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [PHP](https://www.php.net/docs.php)
 - [Postman] (https://www.postman.com/)
 
+### 🛠 Autor 
+Feito com ❤️ por Lucas Ribeiro👋🏽 Entre em contato!
+
+
