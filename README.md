@@ -14,13 +14,14 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ### 🎲 Rodando o Back End (servidor)
 
 
-# Clone este repositório
+### Clone este repositório
 $ git clone <https://github.com/lucasrp98/trabalho_webII>
 
-# Execute a aplicação em modo de desenvolvimento
+### Execute a aplicação em modo de desenvolvimento
 $ php -S localhost:8080 -t public  
 
-# O servidor inciará na porta:8080 - acesse <http://localhost:8080>
+### O servidor inciará na porta:8080 
+Acesse no seu navegador o seguinte link: <http://localhost:8080>
 
 ### 🛠 Tecnologias
 
