@@ -139,7 +139,7 @@ Response 400 ou 500
 https://avatars.githubusercontent.com/u/102001519?s=400&u=445ed2f86820cfae35c3857d9ebce7edde871327&v=4
 ### 🛠 Autor 
 
-Feito com ❤️ por Lucas Ribeiro👋🏽 Entre em contato!
+Feito de ❤️ por Lucas Ribeiro👋🏽 Entre em contato!
 
 <h1 align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://avatars.githubusercontent.com/u/102001519?s=400&u=445ed2f86820cfae35c3857d9ebce7edde871327&v=4" />
