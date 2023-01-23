@@ -138,10 +138,13 @@ Response 400 ou 500
 
 https://avatars.githubusercontent.com/u/102001519?s=400&u=445ed2f86820cfae35c3857d9ebce7edde871327&v=4
 ### 🛠 Autor 
+
+Feito com ❤️ por Lucas Ribeiro👋🏽 Entre em contato!
+
 <h1 align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://avatars.githubusercontent.com/u/102001519?s=400&u=445ed2f86820cfae35c3857d9ebce7edde871327&v=4" />
 </h1>
-Feito com ❤️ por Lucas Ribeiro👋🏽 Entre em contato!
+
 <div>
 <a href="https://www.instagram.com/lucasribeiroo_98/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href = "lucaorpacheco@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
