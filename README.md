@@ -30,6 +30,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [PHP](https://www.php.net/docs.php)
 - [Postman] (https://www.postman.com/)
 
+### Status
+<h4 align="center"> 
+	🚧  PHP Select 🚀 Concluído...  🚧
+</h4>
+
 ### Screenshots
 
 Request GET: (/cidadao): Retorna uma lista de cidadãos cadastrados via JSON no banco.
@@ -131,8 +136,11 @@ Response 400 ou 500
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./images/Evidencia-10.png" />
 </h1>
 
-
+https://avatars.githubusercontent.com/u/102001519?s=400&u=445ed2f86820cfae35c3857d9ebce7edde871327&v=4
 ### 🛠 Autor 
+<h1 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://avatars.githubusercontent.com/u/102001519?s=400&u=445ed2f86820cfae35c3857d9ebce7edde871327&v=4" />
+</h1>
 Feito com ❤️ por Lucas Ribeiro👋🏽 Entre em contato!
 <div>
 <a href="https://www.instagram.com/lucasribeiroo_98/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
