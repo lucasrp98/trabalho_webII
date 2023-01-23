@@ -1,42 +1,29 @@
-# Slim Framework 4 Skeleton Application
 
-[![Coverage Status](https://coveralls.io/repos/github/slimphp/Slim-Skeleton/badge.svg?branch=master)](https://coveralls.io/github/slimphp/Slim-Skeleton?branch=master)
+# API Politiza 
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 4 application. This application uses the latest Slim 4 with Slim PSR-7 implementation and PHP-DI container implementation. It also uses the Monolog logger.
+<p align="center">🚀 Exemplo de um CRUD que pode ser utilzado no projeto Politiza (https://github.com/lucasrp98/politiza)</p>
 
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+<img src="https://img.shields.io/static/v1?label=API&message=Politiza&color=7159c1&style=for-the-badge&logo=ghost"/>
 
-## Install the Application
+### Pré-requisitos
 
-Run this command from the directory in which you want to install your new Slim Framework application. You will require PHP 7.3 or newer.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-```bash
-composer create-project slim/slim-skeleton [my-app-name]
-```
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
-
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writable.
-
-To run the application in development, you can run these commands 
+### 🎲 Rodando o Back End (servidor)
 
 ```bash
-cd [my-app-name]
-composer start
-```
+# Clone este repositório
+$ git clone <https://github.com/lucasrp98/trabalho_webII>
 
-Or you can use `docker-compose` to run the app with `docker`, so you can run these commands:
-```bash
-cd [my-app-name]
-docker-compose up -d
-```
-After that, open `http://localhost:8080` in your browser.
+# Execute a aplicação em modo de desenvolvimento
+$ php -S localhost:8080 -t public  
 
-Run this command in the application directory to run the test suite
+### 🛠 Tecnologias
 
-```bash
-composer test
-```
+As seguintes ferramentas foram usadas na construção do projeto:
 
-That's it! Now go build something cool.
+- [PHP](https://www.php.net/docs.php)
+- [Postman] (https://www.postman.com/)
+
